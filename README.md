@@ -1,14 +1,9 @@
-# 🚀 CryptoPrice Tracker
 
-![GitHub Repo stars](https://img.shields.io/github/stars/rohan-rajak07/CryptoPrice?style=social) ![GitHub forks](https://img.shields.io/github/forks/rohan-rajak07/CryptoPrice?style=social) ![GitHub issues](https://img.shields.io/github/issues/rohan-rajak07/CryptoPrice) ![GitHub license](https://img.shields.io/github/license/rohan-rajak07/CryptoPrice)
-
----
 
 ## 📈 Project Overview
 
 **CryptoPrice** is a sleek and responsive web app built with modern frontend technologies to track real-time cryptocurrency prices. Stay updated with the latest market data, including prices, market caps, and volume for popular cryptocurrencies like Bitcoin, Ethereum, and more.
 
-Live Demo: [https://rohan-rajak07.github.io/CryptoPrice/](https://rohan-rajak07.github.io/CryptoPrice/)
 
 ---
 
@@ -38,4 +33,4 @@ To run this project locally:
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/rohan-rajak07/CryptoPrice.git
+   git clone https://github.com/IMHRX/CryptoPrice-main.git
