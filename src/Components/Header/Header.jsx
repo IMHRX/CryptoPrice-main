@@ -13,10 +13,10 @@ const Header = () => {
           <h1>CryptoPrice</h1>
         </div>
         <div className="link">
-          <Link to="/CryptoPrice/"><p>Home</p></Link>
+          <Link to="/"><p>Home</p></Link>
           <Link to="#"><p>Compare</p></Link>
           <Link to="#"><p>Watchlist</p></Link>
-          <Link to="/CryptoPrice/dashboard"><Btn text={"Dashboard"}/></Link>
+          <Link to="/dashboard"><Btn text={"Dashboard"}/></Link>
         </div>
         <div className="sidemenu">
         <AnchorTemporaryDrawer/>

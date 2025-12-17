@@ -5,10 +5,10 @@ import DashboardPage from './Pages/DashboardPage';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Routes>
-          <Route path="/CryptoPrice/" element={<HomePage/>}></Route>
-          <Route path="/CryptoPrice/dashboard" element={<DashboardPage/>}></Route>
+          <Route path="/" element={<HomePage/>}></Route>
+          <Route path="/dashboard" element={<DashboardPage/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>

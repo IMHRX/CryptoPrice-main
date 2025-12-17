@@ -15,10 +15,10 @@ export default function AnchorTemporaryDrawer() {
             <Button onClick={()=>setOpen(true)}><MenuOutlinedIcon /></Button>
             <Drawer anchor={"right"} open={open} onClose={()=>setOpen(false)}>
                 <div className="sideContainer">
-                    <Link to="/CryptoPrice/" onClick={()=>setOpen(false)}><p>Home</p></Link>
+                    <Link to="/" onClick={()=>setOpen(false)}><p>Home</p></Link>
                     <Link to="#" onClick={()=>setOpen(false)}><p>Compare</p></Link>
                     <Link to="#" onClick={()=>setOpen(false)}><p>Watchlist</p></Link>
-                    <Link to="/CryptoPrice/dashboard" onClick={()=>setOpen(false)}><p>Dashboard</p></Link>
+                    <Link to="/dashboard" onClick={()=>setOpen(false)}><p>Dashboard</p></Link>
                 </div>
             </Drawer>
         </div>
