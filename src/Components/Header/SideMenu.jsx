@@ -4,6 +4,7 @@ import Button from '@mui/material/Button';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import "./Header.css"
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 export default function AnchorTemporaryDrawer() {
@@ -14,10 +15,10 @@ export default function AnchorTemporaryDrawer() {
             <Button onClick={()=>setOpen(true)}><MenuOutlinedIcon /></Button>
             <Drawer anchor={"right"} open={open} onClose={()=>setOpen(false)}>
                 <div className="sideContainer">
-                    <a href="#"><p>Home</p></a>
-                    <a href="#"><p>Compare</p></a>
-                    <a href="#"><p>Watchlist</p></a>
-                    <a href="#"><p>Dashboard</p></a>
+                    <Link to="/CryptoPrice/" onClick={()=>setOpen(false)}><p>Home</p></Link>
+                    <Link to="#" onClick={()=>setOpen(false)}><p>Compare</p></Link>
+                    <Link to="#" onClick={()=>setOpen(false)}><p>Watchlist</p></Link>
+                    <Link to="/CryptoPrice/dashboard" onClick={()=>setOpen(false)}><p>Dashboard</p></Link>
                 </div>
             </Drawer>
         </div>
